@@ -43,9 +43,11 @@ public class MediaEscolar {
 
     public void definirSeAlunoPassouOuNao() {
         if (mediaFinalDoAluno >= 5.0) {
-            alunoReprovadoOuAprovado = "Aprovado";
+            alunoReprovadoOuAprovado = "Aprovado!";
+        } else if (mediaFinalDoAluno <3.0){
+            alunoReprovadoOuAprovado = "Reprovado!";
         } else {
-            alunoReprovadoOuAprovado = "Reprovado";
+            alunoReprovadoOuAprovado = "De Recuperação!";
         }
         exibirMediaDoAluno();
     }

@@ -16,19 +16,19 @@ public class MediaEscolar {
     public void obterDadosDoAluno() {
         Scanner leitor = new Scanner(System.in);
 
-        System.out.print("Qual o nome do aluno? ");
+        System.out.print("Qual o nome do aluno(a)? ");
         nomeDoAluno = leitor.nextLine();
 
-        System.out.print("Qual a nota do " + nomeDoAluno + " no 1° Bimestre: ");
+        System.out.print("Qual a nota do(a) " + nomeDoAluno + " no 1° Bimestre: ");
         nota1DoAluno = leitor.nextDouble();
 
-        System.out.print("Qual a nota do " + nomeDoAluno + " no 2° Bimestre: ");
+        System.out.print("Qual a nota do(a) " + nomeDoAluno + " no 2° Bimestre: ");
         nota2DoAluno = leitor.nextDouble();
 
-        System.out.print("Qual a nota do " + nomeDoAluno + " no 3° Bimestre: ");
+        System.out.print("Qual a nota do(a) " + nomeDoAluno + " no 3° Bimestre: ");
         nota3DoAluno = leitor.nextDouble();
 
-        System.out.print("Qual a nota do " + nomeDoAluno + " no 4° Bimestre: ");
+        System.out.print("Qual a nota do(a0 " + nomeDoAluno + " no 4° Bimestre: ");
         nota4DoAluno = leitor.nextDouble();
 
         calcularMeidaDoAluno();
@@ -52,8 +52,8 @@ public class MediaEscolar {
 
     public void exibirMediaDoAluno(){
 
-        System.out.println("A média do " + nomeDoAluno + " é: " + mediaFinalDoAluno);
+        System.out.println("A média do(a) " + nomeDoAluno + " é: " + mediaFinalDoAluno);
 
-        System.out.print("O aluno " + nomeDoAluno + " está " + alunoReprovadoOuAprovado);
+        System.out.print("O(a) aluno(a) " + nomeDoAluno + " está " + alunoReprovadoOuAprovado);
     }
 }

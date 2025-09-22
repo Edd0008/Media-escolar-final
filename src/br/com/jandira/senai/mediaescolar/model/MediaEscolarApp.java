@@ -1,16 +1,16 @@
-package br.com.jandira.senai.mediaescolar;
+package br.com.jandira.senai.mediaescolar.model;
 
-import javax.print.attribute.standard.Media;
+import br.com.jandira.senai.mediaescolar.MediaEscolar;
 
 public class MediaEscolarApp {
-
+    
     public static void main(String[] args){
         System.out.println("Preparando aplicativo.........");
         System.out.println("*************************************");
         System.out.println("  Calculador de média escolar final  ");
         System.out.println("*************************************");
 
-        MediaEscolar mediaDosAlunos = new MediaEscolar();
+        br.com.jandira.senai.mediaescolar.MediaEscolar mediaDosAlunos = new MediaEscolar();
         mediaDosAlunos.obterDadosDoAluno ();
 
     }
